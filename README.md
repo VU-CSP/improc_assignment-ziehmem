@@ -35,7 +35,7 @@ Also save the resultant "Count Mask" image file with the name "Count_Mask_229461
 ![](image_files/Count_Mask_22946173.tif)  
 
 Q4) How many particles were detected?  
-A4) Put your answer here.  
+A4) 2425. Kept the threshold values at the default settings. There were two distinct peaks suggesting that there are two distinct regions in the image. This was a way to be able to separate the nuclei using watershed. If threshold is too low, then risk making structures bigger and merge. If the threshold is too high, then risk making structures smaller and miss some of the nuclei. Typically, choosing threshold manually introduces an opportunity for bias.   
 
 You will do a first-pass assessment of the segmentation output by analyzing the size of the particles using Python...  
 
